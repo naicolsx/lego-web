@@ -41,13 +41,13 @@
             </section>
 
             <section class="footer">
-                <div>
+                <div id="buttonSpider">
                     <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="Spiderman">
                 </div>
-                <div>
+                <div id="buttonRobin">
                     <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="Robin">
                 </div>
-                <div>
+                <div id="buttonBat">
                     <img src="https://i.ibb.co/M18p91c/batman.webp" alt="Batman">
                 </div>
             </section>
@@ -59,9 +59,39 @@
             <div></div>
         </section>
 
-        <section></section>
+        <section class="modal hidden">
+            <div class="modal__content">
+                <img class="modal__content--close" src="https://img.icons8.com/windows/32/000000/macos-close.png"
+                    alt="Close">
+
+                <div class="modal__content--slider">
+                    <input type="radio" name="slider-1" id="radio-1" checked="">
+                    <input type="radio" name="slider-1" id="radio-2">
+                    <input type="radio" name="slider-1" id="radio-3">
+
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png"
+                                alt="">
+                        </label>
+                        <label for="radio-2" id="card-2" class="card">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png"
+                                alt="">
+                        </label>
+                        <label for="radio-3" id="card-3" class="card">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png"
+                                alt="">
+                        </label>
+                    </div>
+                </div>
+
+                <button class="modal-content__button">Lo quiero!</button>
+
+            </div>
+        </section>
 
     </div>
 </body>
+<script src="./js/lego.js"></script>
 
 </html>
