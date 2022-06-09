@@ -1,5 +1,5 @@
 # lego-web
 
 <div align="center">
-  <img src="./img/web-lego.png" width="60%" alt="Calculator">
+  <img src="./img/web-lego.png" width="80%" alt="Calculator">
 </div>
